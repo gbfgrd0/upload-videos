@@ -1,0 +1,2 @@
+Para rodar o script é necessário escrever o seguinte comando no terminal:
+npm run start_dev

@@ -1,0 +1,17 @@
+{
+  "name": "react-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start_client": "npm start --prefix front",
+    "start_node": "node index.js",
+    "start_dev": "concurrently \"npm run start_client\" \"npm run start_node\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "express": "^4.18.2"
+  }
+}
